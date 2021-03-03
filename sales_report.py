@@ -30,7 +30,8 @@ for line in f:  #iterates through each line in f
                                                 # sales person
         melons_sold[position] += melons # adds the number of melons (from the same line) 
                                         # to melons_sold at index position
-
+        # They are attempting to line up the data in the same order in the separate lists,
+        # again, there is a much simpler way to do this with a dictionary.
     else:
         salespeople.append(salesperson) #adds the salesperson to the list salespeople
         melons_sold.append(melons) #adds the number of melons to the list melons_sold
