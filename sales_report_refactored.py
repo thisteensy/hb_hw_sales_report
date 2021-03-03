@@ -14,5 +14,5 @@ for line in f:
     else:
         sales_report[entries[0]] = int(entries[2])    
 
-for key in sales_report: 
-    print(f'{key} sold {sales_report[key]} melons')
+for key, value in sales_report.items(): 
+    print(f'{key} sold {value} melons')
